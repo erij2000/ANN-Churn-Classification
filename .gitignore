@@ -1,0 +1,36 @@
+
+---
+
+### **.gitignore**
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+*.venv
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data files
+*.csv
+*.xlsx
+*.pkl
+
+# Model files
+*.h5
+*.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
